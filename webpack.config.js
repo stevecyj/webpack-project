@@ -34,4 +34,7 @@ module.exports = {
       filename: 'index.[hash].css',
     }),
   ],
+
+  // source map
+  devtool: 'source-map',
 };
