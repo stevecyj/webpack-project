@@ -1,1 +1,0 @@
-{"version":3,"file":"index.8a328006c63f71eadf49.css","mappings":";;;AAAA;EACE,yBAAyB;EACzB,YAAY;EACZ,aAAa;AACf","sources":["webpack://webpackproject/./src/index.css"],"sourcesContent":[".box {\n  background-color: #f2f2f2;\n  width: 100px;\n  height: 100px;\n}\n"],"names":[],"sourceRoot":""}

@@ -1,5 +1,13 @@
 .box {
   background-color: #f2f2f2;
-  width: 100px;
-  height: 100px;
+  background-image: url('./images/cat.jpg');
+  width: 100%;
+  height: 50vh;
+}
+
+.box2 {
+  background-color: #f2f2f2;
+  background-image: url('./images/daki.gif');
+  width: 100%;
+  height: 50vh;
 }
