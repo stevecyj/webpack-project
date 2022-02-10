@@ -23,7 +23,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/i,
+        test: /\.css$|\.scss/i,
         use: [
           MiniCssExtractPlugin.loader,
           {
@@ -32,8 +32,8 @@ module.exports = {
               importLoaders: 1,
             },
           },
-
           { loader: 'postcss-loader' },
+          { loader: 'sass-loader' },
         ],
       },
       {

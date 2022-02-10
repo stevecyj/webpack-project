@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import { a } from './a';
 import './index.css';
+import './index.scss';
 
 console.log($.ajax);
 console.log(a);
