@@ -1,0 +1,19 @@
+// mixins, function, if else
+@mixin square($size, $color: #000) {
+  width: $size;
+  height: $size;
+  background-color: $color;
+  margin-bottom: 20px;
+}
+
+.box4 {
+  @include square(45px, rgb(224, 148, 148));
+}
+
+.box41 {
+  @include square(100px, rgb(16, 163, 16));
+}
+
+.box42 {
+  @include square(200px);
+}

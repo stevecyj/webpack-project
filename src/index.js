@@ -3,6 +3,7 @@ import { a } from './a';
 import './index.css';
 import './index.scss';
 import './ch03.scss';
+import './ch04.scss';
 
 console.log($.ajax);
 console.log(a);
