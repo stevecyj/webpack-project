@@ -4,7 +4,7 @@ import './index.css';
 
 console.log($.ajax);
 console.log(a);
-console.log('gogo', 'jojo');
+console.log('gogo', 'jojo', PRODUCTION);
 
 class Test {
   #a = 100;

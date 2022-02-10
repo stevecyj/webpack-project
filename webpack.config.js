@@ -2,6 +2,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+const webpack = require('webpack');
+const CompressionPlugin = require('compression-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -63,6 +65,10 @@ module.exports = {
     new CopyPlugin({
       patterns: [{ from: './static', to: './static' }],
     }),
+    new webpack.DefinePlugin({
+      PRODUCTION: JSON.stringify(true),
+    }),
+    new CompressionPlugin(),
   ],
 
   // source map

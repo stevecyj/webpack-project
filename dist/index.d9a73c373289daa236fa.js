@@ -11016,7 +11016,7 @@ function _checkPrivateRedeclaration(obj, privateCollection) { if (privateCollect
 
 console.log((jquery__WEBPACK_IMPORTED_MODULE_0___default().ajax));
 console.log(_a__WEBPACK_IMPORTED_MODULE_1__.a);
-console.log('gogo', 'jojo');
+console.log('gogo', 'jojo', true);
 
 var _a = /*#__PURE__*/new WeakMap();
 
@@ -11034,4 +11034,4 @@ console.log('tt', tt.a);
 }();
 /******/ })()
 ;
-//# sourceMappingURL=index.544852d68e76155611bb.js.map
+//# sourceMappingURL=index.d9a73c373289daa236fa.js.map
