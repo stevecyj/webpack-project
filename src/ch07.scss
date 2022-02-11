@@ -1,0 +1,26 @@
+$sizes: 10px, 20px, 30px;
+
+// @each $size in $sizes {
+//   .icon-#{$size} {
+//     font-size: $size;
+//   }
+// }
+
+// $color-map: (
+//   'red': rgb(190, 63, 24),
+//   'green': rgb(58, 182, 42),
+// );
+
+// @each $key, $value in $color-map {
+//   .icon-#{$key} {
+//     color: $value;
+//   }
+// }
+
+$fontSize: 16px;
+@while $fontSize < 20 {
+  .text-#{$fontSize} {
+    font-size: $fontSize;
+  }
+  $fontSize: $fontSize + 1;
+}

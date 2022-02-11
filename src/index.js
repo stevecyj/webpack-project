@@ -5,6 +5,8 @@ import './index.scss';
 import './ch03.scss';
 import './ch04.scss';
 import './ch05.scss';
+import './ch06.scss';
+import './ch07.scss';
 
 console.log($.ajax);
 console.log(a);

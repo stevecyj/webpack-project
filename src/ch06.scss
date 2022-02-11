@@ -1,0 +1,33 @@
+@use 'sass:map';
+
+// $font-weights: (
+//   'regular': 400,
+//   'medium': 500,
+//   'bold': 700,
+// );
+
+// 空的 map
+$font-weights: ();
+
+// $font-weights: map.set($font-weights, 'extra-bold', 900);
+
+$light-weights: (
+  'lightest': 100,
+  'light': 300,
+);
+$heavy-weights: (
+  'medium': 500,
+  'bold': 700,
+);
+
+$font-weights: map.merge($font-weights, $light-weights);
+
+$text: (
+  'large': 64px,
+  'medium': 48px,
+  'small': 32px,
+);
+
+.title2 {
+  font-weight: map.get($font-weights, 'lightest');
+}
