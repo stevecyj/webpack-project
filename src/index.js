@@ -4,6 +4,7 @@ import './index.css';
 import './index.scss';
 import './ch03.scss';
 import './ch04.scss';
+import './ch05.scss';
 
 console.log($.ajax);
 console.log(a);

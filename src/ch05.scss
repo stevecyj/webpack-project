@@ -1,0 +1,39 @@
+// .common-font-color {
+//   color: rgb(0, 153, 255);
+//   font-weight: 900;
+// }
+
+// .title {
+//   @extend .common-font-color;
+//   font-size: 24px;
+// }
+
+// .desc {
+//   @extend .common-font-color;
+//   font-size: 16px;
+// }
+
+// .desc2 {
+//   @extend .common-font-color;
+//   font-size: 14px;
+// }
+
+@mixin common-font-color {
+  color: rgb(0, 153, 255);
+  font-weight: 900;
+}
+
+.title {
+  @extend .common-font-color;
+  font-size: 24px;
+}
+
+.desc {
+  @extend .common-font-color;
+  font-size: 16px;
+}
+
+.desc2 {
+  @extend .common-font-color;
+  font-size: 14px;
+}
