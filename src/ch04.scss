@@ -4,11 +4,20 @@
   height: $size;
   background-color: $color;
   margin-bottom: 20px;
+
+  @if $size >100 {
+    border-radius: 99px;
+  }
 }
 
 // margin-left 都是寬度的一半
 @function getMarginLeft($size) {
-  @return $size / 2;
+  @if $size < 100px {
+    @return 30px;
+  } @else {
+    @return 50px;
+  }
+  // @return $size / 2;
 }
 
 .box4 {
