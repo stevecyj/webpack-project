@@ -1,0 +1,6 @@
+@use 'base';
+
+.title3 {
+  color: base.$primary;
+  @include base.text-size();
+}

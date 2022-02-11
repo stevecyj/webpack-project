@@ -7,6 +7,7 @@ import './ch04.scss';
 import './ch05.scss';
 import './ch06.scss';
 import './ch07.scss';
+import './ch08.scss';
 
 console.log($.ajax);
 console.log(a);
