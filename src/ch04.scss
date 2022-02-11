@@ -6,14 +6,22 @@
   margin-bottom: 20px;
 }
 
+// margin-left 都是寬度的一半
+@function getMarginLeft($size) {
+  @return $size / 2;
+}
+
 .box4 {
   @include square(45px, rgb(224, 148, 148));
+  margin-left: getMarginLeft(45px);
 }
 
 .box41 {
   @include square(100px, rgb(16, 163, 16));
+  margin-left: getMarginLeft(100px);
 }
 
 .box42 {
   @include square(200px);
+  margin-left: getMarginLeft(200px);
 }
